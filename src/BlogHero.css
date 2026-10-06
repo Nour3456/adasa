@@ -1,0 +1,60 @@
+.blog-hero-section {
+  background-color: #09090b;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 55px 55px; 
+  padding-top: 140px;
+  padding-bottom: 90px;
+  overflow: hidden;
+}
+.hero-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 250px;
+  background: radial-gradient(circle, rgba(255, 85, 0, 0.18) 0%, rgba(9, 9, 11, 0) 70%);
+  filter: blur(40px);
+  pointer-events: none;
+  z-index: 1;
+}
+.hero-badge {
+  background-color: rgba(255, 85, 0, 0.06);
+  border: 1px solid rgba(255, 85, 0, 0.25);
+  color: #ff5500;
+}
+
+.dot-orange {
+  width: 6px;
+  height: 6px;
+  background-color: #ff5500;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.badge-text {
+  font-size: 0.825rem;
+  font-weight: 500;
+}
+
+.badge-icon {
+  font-size: 0.85rem;
+  color: #ff5500;
+}
+.hero-title {
+  font-size: 3.5rem;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+.text-orange {
+  color: #ff5500;
+}
+.hero-subtitle {
+  color: #a1a1aa;
+  font-size: 1.1rem;
+  max-width: 550px;
+  font-weight: 400;
+}

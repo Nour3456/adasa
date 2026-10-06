@@ -1,0 +1,89 @@
+
+.categories-section {
+  background-color: #0c0c0e;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.category-badge {
+  background-color: #1a120e;
+  border: 1px solid #3d2012;
+}
+
+.dot-orange {
+  color: #ff5500;
+  font-size: 8px;
+  letter-spacing: 2px;
+}
+
+.text-orange-light {
+  color: #ff7733;
+  font-weight: 600;
+}
+
+.fs-7 {
+  font-size: 0.85rem;
+}
+
+.category-card {
+  background-color: #141416;
+  border: 1px solid #222226;
+  min-height: 180px;
+  transition: all 0.35s ease;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.cat-icon-box {
+  width: 48px;
+  height: 48px;
+  background-color: #241610;
+  color: #ff5500;
+  font-size: 1.25rem;
+  transition: all 0.35s ease;
+}
+
+.cat-count {
+  color: #71717a;
+  transition: color 0.35s ease;
+}
+
+.hover-arrow {
+  width: 38px;
+  height: 38px;
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+  font-size: 0.9rem;
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: all 0.35s ease;
+}
+
+.category-card:hover {
+  background: linear-gradient(135deg, #ff8800 0%, #ff5500 50%, #e64a00 100%);
+  border-color: transparent;
+  box-shadow: 0 12px 30px rgba(255, 85, 0, 0.3);
+  transform: translateY(-3px);
+}
+
+.category-card:hover .cat-icon-box {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+}
+
+.category-card:hover .hover-arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.category-card:hover .cat-title {
+  color: #ffffff !important;
+}
+
+.category-card:hover .cat-count {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.subtitle-text {
+  color: #9c9c9c !important;
+  font-size: 0.95rem;
+}
